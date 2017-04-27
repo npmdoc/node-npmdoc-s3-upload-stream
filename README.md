@@ -1,6 +1,6 @@
 # npmdoc-s3-upload-stream
 
-#### api documentation for  [s3-upload-stream (v1.0.7)](https://github.com/nathanpeck/s3-upload-stream)  [![npm package](https://img.shields.io/npm/v/npmdoc-s3-upload-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-s3-upload-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-s3-upload-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-s3-upload-stream)
+#### basic api documentation for  [s3-upload-stream (v1.0.7)](https://github.com/nathanpeck/s3-upload-stream)  [![npm package](https://img.shields.io/npm/v/npmdoc-s3-upload-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-s3-upload-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-s3-upload-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-s3-upload-stream)
 
 #### Writeable stream for uploading content of unknown size to S3 via the multipart API.
 
@@ -70,7 +70,8 @@
     "scripts": {
         "test": "mocha -R spec -s 100 ./tests/test.js"
     },
-    "version": "1.0.7"
+    "version": "1.0.7",
+    "bin": {}
 }
 ```
 
